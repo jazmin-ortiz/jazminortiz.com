@@ -1,9 +1,10 @@
-body{ background: #27A5A9}
+body {
+    background: #27A5A9
+}
 
-h1{ 
-    color: #11474B;
-    border: 2px solid #11484C;
-    background: #CAFDF9}
+h1.contentBox {
+    font-size: xx-large;
+}
 
 /* unvisited link */
 a:link {
@@ -19,11 +20,6 @@ a:hover {
     color: #FEAE03;
 }
 
-.container {
-    background: #27A5A9;
-    margin: auto
-}
-
 .right {
     width: 65%;
     float: right;
@@ -34,23 +30,15 @@ a:hover {
     float: left;
 }
 
-.rightbox {
+.contentBox {
    color: #11474B;
    border: 2px solid #11484C;
    margin: 5px;
    padding: 5px;
    background: #CAFDF9;
-   float: left
+   font-size: x-large;
 }
 
-.leftbox {
-   color: #11474B;
-   border: 2px solid #11484C;
-   margin: 5px;
-   padding: 5px;
-   background: #CAFDF9;
-   float: left
-}
 
 .smallTitle {
     display: none;
@@ -63,7 +51,7 @@ a:hover {
     padding: 0 20px 0 20px;
 }
 
-@media screen and (max-width: 1500px) {
+@media (max-width: 450px) {
 
     .rightbox {
         float: none;
